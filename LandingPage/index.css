@@ -562,9 +562,6 @@ section.first a.get-started {
  section.second .desc-images {
    height: 300vh;
  }
- section.fourth {
-  /* margin-top: 230px; */
- }
  section h3 {
   text-align: center;
   font-size: 310%;
@@ -609,8 +606,8 @@ section.third div.learn-more {
   display: grid;
   grid-template-columns: 1fr ;
   gap: 20px;
-  height: 400vh;
-  margin-bottom: 120%;
+  height: 505vh;
+  margin-bottom: 50%;
 }
 section.third p {
   font-size: 200%;
@@ -643,7 +640,7 @@ section.third div.learn-more article.item a.item-learn-more{
 }
 section.fourth {
   margin: auto;
-  height: 90%;
+  height: 140%;
 }
 section.fourth h3.wcu {
  font-size: 400%;
