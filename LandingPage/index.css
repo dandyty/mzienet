@@ -558,7 +558,7 @@ section.first a.get-started {
    height: 300vh;
  }
  section.fourth {
-  margin-top: 230px;
+  /* margin-top: 230px; */
  }
  section h3 {
   text-align: center;
@@ -638,6 +638,7 @@ section.third div.learn-more article.item a.item-learn-more{
 }
 section.fourth {
   margin: auto;
+  height: 90%;
 }
 section.fourth h3.wcu {
  font-size: 400%;
