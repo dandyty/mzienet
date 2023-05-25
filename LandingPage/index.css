@@ -684,12 +684,18 @@ left: -10px;
 font-family: Poppins;
 font-size: 150%;
 }
+article.break-into-tech {
+  height: 500px;
+}
 article.break-into-tech div h2{
   font-size: 250%;
 }
-/* article.break-into-tech::after{
-  height: 100vh;
-} */
+article.break-into-tech::after {
+  content: '';
+  display: inline-block;
+  height: 500px;
+  top:-5.5em;
+}
 section.fifth h3.our-clients{
   font-size: 300%;
 }
@@ -735,5 +741,8 @@ section.second .desc-images .img:nth-child(1) {
 section.second .desc-images {
   height: 300vh;
 } 
+section.fourth {
+  margin-top:-15%;
+}
 }
 

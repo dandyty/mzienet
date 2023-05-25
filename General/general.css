@@ -300,10 +300,12 @@ h1.placeholder {
     margin-left: -130px;
     font-size: 200%;
   }
-  footer article ul li a{
+  footer .footer-contents article ul li a{
     margin-left: -130px;
-    font-size: 400px;
-  }
+    font-size: 26px;
+      text-decoration: none;
+      color: #fff;
+    }
   footer article p{
     margin-left: -130px;
     width: 70%;
@@ -319,6 +321,15 @@ h1.placeholder {
 
 }
 @media screen and (max-width:375px) {
+  nav{
+    height:18vh;
+   }
+   section.first{
+    margin-top: 2%;
+   }
+   nav h2.logo img{
+    width: 300%;
+   }
   div.container .nav nav {
     margin-bottom: 85px;
    }
@@ -342,4 +353,14 @@ h1.placeholder {
   .nav{
     height: 15vh;
   }
+  footer div.copyright{
+    font-size: 150%;
+    margin-top: 15%;
+  }
+  footer .footer-contents article ul li a{
+    margin-left: -130px;
+    font-size: 24px;
+      text-decoration: none;
+      color: #fff;
+    }
 }
