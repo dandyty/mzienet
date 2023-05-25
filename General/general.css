@@ -283,14 +283,26 @@ h1.placeholder {
   }
 }
 @media screen and (max-width:425px){
+ nav {
+  height: 25vh;
+ }
+ nav h2.logo img{
+  width: 150%;
+ }
+  footer{
+    height: 3000%;
+  }
   footer img {
   margin-top: -60px;
+  width: 15%;
   }
   footer article h3 {
     margin-left: -130px;
+    font-size: 200%;
   }
-  footer article ul li a {
+  footer article ul li a{
     margin-left: -130px;
+    font-size: 400px;
   }
   footer article p{
     margin-left: -130px;
@@ -300,9 +312,19 @@ h1.placeholder {
   footer article h3.address {
     margin-top: 85px;
   }
+  footer div.copyright{
+    font-size: 150%;
+    margin-top: 15%;
+  }
 
 }
 @media screen and (max-width:375px) {
+  div.container .nav nav {
+    margin-bottom: 85px;
+   }
+   nav h2.logo img{
+    width: 100%;
+   }
 
   footer article h3.address {
     margin-top: 75px;

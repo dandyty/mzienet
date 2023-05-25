@@ -284,7 +284,7 @@ section.fourth h1 {
   font-size: 37px;
   font-family: 'Poppins', sans-serif;
 }
-section.fourth p {
+section.fourth p.choose-us-text{
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   /* width: 400px; */
@@ -513,6 +513,24 @@ section.fourth div.qualities p {
 
 }
 @media screen and (max-width:425px) {
+  section.first {
+    height: 250vh;
+  }
+  section.first h1.title {
+    font-size: 730%;
+  }
+  section.first p.sub-text {
+    font-size: 290%;
+    line-height: 140%;
+  }
+section.first a.get-started {
+  font-size: 300%;
+  width: 150%;
+  font-family: poppins;
+}
+#menu{
+  font-size: 400%;
+}
   section.second .desc-images .img:nth-child(2) {
     display: none;
  }
@@ -544,76 +562,119 @@ section.fourth div.qualities p {
  }
  section h3 {
   text-align: center;
-  font-size: 30%;
+  font-size: 310%;
  }
  section p.desc-text{
   width: 96%;
   text-align: center;
  }
  section.second h3{
-  font-size: 20px;
+  /* font-size: 550%; */
  }
  section.second h3.wwa {
-  font-size: 30px;
+  font-size: 450%;
+ }
+ section.second p.desc-text {
+  font-size: 250%;
  }
  section.third h3.wwd {
-   font-size: 30px;
+   font-size: 450%;
 }
+section.third h1.info-header{
+  font-size: 250%;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+}
+
+section.third p.info-text {
+  font-size: 200%;
+  width: 100%;
+  line-height: 140%;
+ }
 section.second p {
-  font-size: 150%;
+  font-size: 200%;
 }
 
 section.second  article h1.info-header {
   text-align: center;
 }
 section.third div.learn-more {
-  margin: auto;
+  margin-top:5%;
   display: grid;
   grid-template-columns: 1fr ;
   gap: 20px;
-  height: 330vh;
+  height: 430vh;
+  margin-bottom: 120%;
 }
 section.third p {
-  font-size: 150%;
+  font-size: 200%;
 }
+section.third div.learn-more article.item{
+  height: 90%;
+  margin-bottom: 10%;
+}
+
 section.third div.learn-more article.item img{
   margin-left: 50%;
-  width: 5%;
+  width: 10%;
 }
 section.third div.learn-more article.item h2.item-header{
 text-align: center;
-font-weight: 700;
+font-weight: 300;
 font-family: poppins;
+font-size: 300%;
 }
 section.third div.learn-more article.item p.item-text{
   text-align: center;
+  font-size: 200%;
+  line-height: 150%;
 
 }
 section.third div.learn-more article.item a.item-learn-more{
   display: block;
   margin-left:45%;
-  font-size: 150%;
+  font-size: 250%;
+}
+section.fourth {
+  margin: auto;
 }
 section.fourth h3.wcu {
- font-size: 30px;
+ font-size: 400%;
+ text-align: center;
 }
-section.fouth p {
-  font-size: 190%;
+section.fourth h1.choose-us-header{
+  text-align: center;
+  font-weight: 600;
+  font-size: 250%;
+}
+
+section.fourth p.choose-us-text{
+  font-size: 250%;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  width: 100%;
+  line-height: 200%;
 }
 section.fourth div.qualities {
 display: grid;
 grid-template-columns: 1fr;
+margin-top: 5%;
+margin-bottom: 20%;
 }
 section.fourth div.qualities .each-quality{
-  margin-left: 20%;
-  width: 80%;
+  /* margin-left: 5%; */
+  width: 100%;
+  height: 100%;
 }
 section.fourth div.qualities img {
-width: 10%;
+width: 12%;
 }
 section.fourth div.qualities p {
 font-family: poppins;
-font-size: 25px;
+font-size: 230%;
+margin: 5% 5%;
+font-weight:400 ;
 }
 section.fourth div.qualities span {
 position: relative;
@@ -621,13 +682,21 @@ display: inline-block;
 width: 70%;
 left: -10px;
 font-family: Poppins;
+font-size: 150%;
 }
+article.break-into-tech div h2{
+  font-size: 250%;
+}
+/* article.break-into-tech::after{
+  height: 100vh;
+} */
 section.fifth h3.our-clients{
-  font-size: 180%;
+  font-size: 300%;
 }
 section.fifth h1{
   width: 90%;
   text-align: center;
+  font-size: 200%;
 }
 
 }
@@ -667,3 +736,4 @@ section.second .desc-images {
   height: 300vh;
 } 
 }
+
