@@ -604,7 +604,7 @@ section.third div.learn-more {
   display: grid;
   grid-template-columns: 1fr ;
   gap: 20px;
-  height: 430vh;
+  height: 400vh;
   margin-bottom: 120%;
 }
 section.third p {
@@ -637,7 +637,7 @@ section.third div.learn-more article.item a.item-learn-more{
   font-size: 250%;
 }
 section.fourth {
-  /* margin: auto;git  */
+  margin: auto;
   height: 90%;
 }
 section.fourth h3.wcu {
