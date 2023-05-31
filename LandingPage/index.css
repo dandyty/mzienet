@@ -700,12 +700,12 @@ section.fourth h1.choose-us-header{
 }
 
 section.fourth p.choose-us-text{
+  width: 100%;
   font-size: 250%;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  width: 100%;
   line-height: 200%;
-  margin-left: 120px;
+  margin-left: 90px;
 
 }
 section.fourth div.qualities {
@@ -714,8 +714,8 @@ grid-template-columns: 1fr;
 margin-top: 5%;
 margin-bottom: 20%;
 gap: 200px;
-width: 100%;
-margin-left: 120px;
+width: 110%;
+margin-left: 60px;
 
 }
 section.fourth div.qualities .each-quality{
@@ -737,7 +737,7 @@ font-weight:400 ;
 section.fourth div.qualities span {
 position: relative;
 display: inline-block;
-width: 70%;
+width: 100%;
 left: -10px;
 font-family: Poppins;
 font-size: 250%;
