@@ -640,7 +640,7 @@ section.second  article h1.info-header {
   text-align: center;
 }
 section.third div.learn-more {
-  margin-top:5%;
+  margin-top:30%;
   display: grid;
   grid-template-columns: 1fr ;
   gap: 20px;
