@@ -685,6 +685,9 @@ section.fourth {
 section.fourth h3.wcu {
  font-size: 400%;
  text-align: center;
+ width: 100%;
+ margin-left: 120px;
+
 }
 section.fourth h1.choose-us-header{
   text-align: center;
