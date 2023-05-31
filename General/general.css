@@ -285,6 +285,9 @@ h1.placeholder {
   }
 }
 @media screen and (max-width:425px){
+  .nav{
+    height: 150px;
+  }
  nav {
   height: 25vh;
  }
@@ -326,8 +329,12 @@ h1.placeholder {
 
 }
 @media screen and (max-width:375px) {
+  .nav{
+    top: 0px;
+    height: 300%;
+  }
   nav{
-    height:18vh;
+    height:15vh;
    }
    section.first{
     margin-top: 2%;
