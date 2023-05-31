@@ -590,6 +590,8 @@ section.second div.mobile-desc-img div img{
 }
 section.second div.mobile-desc-img .scroll-btns{
 text-align: center;
+margin-left: 120px;
+
 }
 section.second div.mobile-desc-img .scroll-btns i{
   margin-top: 60px;
