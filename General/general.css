@@ -82,12 +82,35 @@ nav h2.get_a_quote a {
 nav h2.get_a_quote a:hover {
   background-color: var(--yellow);
 }
-#menu {
-  font-size: 140%;
+.hamburger{
+  width: 9%;
+  height: 12vh;
   display: none;
-  
+  /* border: 2px solid black; */
+  text-align: center;
 }
-
+.hamburger #menu {
+  font-size: 380%; 
+}
+.hamburger #menu-close{
+  font-size:480% ;
+  margin-top: -10px;
+}
+.drop-down{
+  background: #2d0606f5;
+  backdrop-filter: blur(100px);
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  text-align: center;
+}
+.drop-down li a{
+ text-decoration: none;
+ font-size: 300%;
+ color: #fff;
+ text-align: center;
+}
+/* .hamburger #menu-close{} */
 /* Drop down */
 #dropdown1,
 #dropdown2 {
@@ -258,9 +281,29 @@ h1.placeholder {
   }
 }
 @media screen and (max-width:768px) {
-  #menu{
-    display: block;
+  body{
+    width: 100%;
+    overflow-x: hidden;
   }
+ .hamburger{
+  display: block;
+ }
+ .hamburger #menu{
+  display:block;
+ }
+ .hamburger #menu-close{
+  display: none;
+ }
+.hamburger #menu-close.active{
+  display: block;
+}
+.hamburger #menu.active{
+  display: none;
+}
+.drop-down.active{
+  display: block;
+}
+
   nav ul li a {
     display: none;
   }
@@ -285,6 +328,10 @@ h1.placeholder {
   }
 }
 @media screen and (max-width:425px){
+  body{
+    width: 100%;
+    overflow-x: hidden;
+  }
   .nav{
     height: 150px;
   }
@@ -329,6 +376,11 @@ h1.placeholder {
 
 }
 @media screen and (max-width:375px) {
+  body{
+    width: 100%;
+    overflow-x: hidden;
+    scale: 0%;
+  }
   .nav{
     top: 0px;
     height: 300%;

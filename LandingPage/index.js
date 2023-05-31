@@ -6,6 +6,11 @@ const descImg = document.querySelectorAll('.desc-images img');
 const fullDescImgContainer = document.querySelector('.desc-images-full-view'); // container for full img (the clicked one)
 const fullDescImg = document.querySelector('.desc-images-full-view img');
 const imgCloseBtn = document.querySelector('.desc-images-full-view #close-btn');
+const hamburger = document.querySelector('.hamburger')
+const menu_start = document.querySelector('#menu');
+const menu_close = document.querySelector('#menu-close');
+const hamburger_child = document.querySelector('.drop-down');
+
 
 const leftBtn = document.querySelector('.bx.bx-chevron-left'),
   rightBtn = document.querySelector('.bx.bx-chevron-right');
@@ -89,4 +94,33 @@ rightBtn.addEventListener('click', () => {
     }
 });
 
+menu_start.addEventListener('click', () =>{
+  // menu_start.classList.toggle('active');
+  menu_close.classList.toggle('active');
+  hamburger_child.classList.toggle('active');
+  menu_start.classList.toggle('active');
 
+
+})
+menu_close.addEventListener('click', () =>{
+  // menu_start.classList.toggle('active');
+  menu_close.classList.toggle('active');
+  hamburger_child.classList.toggle('active');
+  menu_start.classList.toggle('active');
+
+
+})
+// menu_close.addEventListener('click', () => {
+//   hamburger_child.classList.remove("active");
+//   menu_start.classList.add('active');
+
+
+// })
+// hamburger.addEventListener ('click', () => {
+//   menu_start.classList.remove('active');
+//   menu_close.classList.add('active');
+   
+//  else:
+//   menu_start.classList.add('active');
+//   menu_close.classList.remove('active');
+// })
