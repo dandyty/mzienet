@@ -689,7 +689,9 @@ section.fourth h3.wcu {
 section.fourth h1.choose-us-header{
   text-align: center;
   font-weight: 600;
-  font-size: 250%;
+  font-size: 370%;
+  width: 100%;
+  margin-left: 120px;
 }
 
 section.fourth p.choose-us-text{
@@ -698,6 +700,8 @@ section.fourth p.choose-us-text{
   text-align: center;
   width: 100%;
   line-height: 200%;
+  margin-left: 120px;
+
 }
 section.fourth div.qualities {
 display: grid;
@@ -705,6 +709,9 @@ grid-template-columns: 1fr;
 margin-top: 5%;
 margin-bottom: 20%;
 gap: 200px;
+width: 100%;
+margin-left: 120px;
+
 }
 section.fourth div.qualities .each-quality{
   /* margin-left: 5%; */
@@ -718,7 +725,7 @@ width: 12%;
 }
 section.fourth div.qualities p {
 font-family: poppins;
-font-size: 230%;
+font-size: 330%;
 margin: 5% 5%;
 font-weight:400 ;
 }
@@ -728,7 +735,8 @@ display: inline-block;
 width: 70%;
 left: -10px;
 font-family: Poppins;
-font-size: 150%;
+font-size: 250%;
+color:rgba(71, 70, 70, 0.816);
 }
 article.break-into-tech {
   height: 500px;
