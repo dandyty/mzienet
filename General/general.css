@@ -341,6 +341,9 @@ h1.placeholder {
    nav h2.logo img{
     width: 100%;
    }
+   footer{
+    height: 100px;
+   }
 
    footer article h3.address {
     margin-top: 75px;
