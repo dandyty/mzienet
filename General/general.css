@@ -346,7 +346,6 @@ h1.placeholder {
   display: block;
 }
 
-
   nav ul li a {
     display: none;
   }
@@ -380,6 +379,9 @@ h1.placeholder {
   }
   .hamburger{
     margin-top: 1%;
+   }
+   .drop-down{
+    height: 60%;
    }
  nav {
   height: 25vh;
