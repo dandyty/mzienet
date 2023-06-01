@@ -107,20 +107,4 @@ menu_close.addEventListener('click', () =>{
   menu_close.classList.toggle('active');
   hamburger_child.classList.toggle('active');
   menu_start.classList.toggle('active');
-
-
 })
-// menu_close.addEventListener('click', () => {
-//   hamburger_child.classList.remove("active");
-//   menu_start.classList.add('active');
-
-
-// })
-// hamburger.addEventListener ('click', () => {
-//   menu_start.classList.remove('active');
-//   menu_close.classList.add('active');
-   
-//  else:
-//   menu_start.classList.add('active');
-//   menu_close.classList.remove('active');
-// })
