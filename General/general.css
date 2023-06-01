@@ -103,6 +103,19 @@ nav h2.get_a_quote a:hover {
   z-index: 100;
   width: 100%;
   text-align: center;
+  -webkit-animation: animatezoom 0.4s ease-in-out;
+  animation: animatezoom 0.4s ease-out;
+}
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0);
+  }
 }
 .drop-down li a{
  text-decoration: none;
@@ -379,7 +392,6 @@ h1.placeholder {
   body{
     width: 100%;
     overflow-x: hidden;
-    scale: 0%;
   }
   .nav{
     top: 0px;
