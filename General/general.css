@@ -35,7 +35,8 @@ body {
 /*  Nav Menu Styling */
 .nav {
   background-color: var(--white);
-  position: sticky;
+  position:sticky;
+  left: 0;
   top: 0;
   z-index: 100;
   overflow-y: hidden;
@@ -346,6 +347,12 @@ h1.placeholder {
 .drop-down.active{
   display: block;
 }
+.drop-down{
+  height: 70%;
+}
+.drop-down li a{
+  line-height: 200%;
+}
 
   nav ul li a {
     display: none;
@@ -382,7 +389,10 @@ h1.placeholder {
     margin-top: 1%;
    }
    .drop-down{
-    height: 60%;
+    height: 54%;
+   }
+   .drop-down li a{
+    line-height: 250%;
    }
  nav {
   height: 25vh;
