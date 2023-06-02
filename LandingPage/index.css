@@ -637,6 +637,7 @@ margin-right: 40px;
  }
  section.third{
   width: 160%;
+  margin-top: 160%;
  }
  section.third h3.wwd {
    font-size: 300%;
@@ -652,6 +653,7 @@ section.third p.info-text {
   font-size: 160%;
   width: 100%;
   line-height: 140%;
+  margin-bottom:-20% ;
  }
 section.second p {
   font-size: 200%;
@@ -660,6 +662,7 @@ section.second p {
 section.second  article h1.info-header {
   text-align: center;
 }
+
 section.third div.learn-more {
   margin-top:30%;
   display: grid;
@@ -684,7 +687,7 @@ section.third div.learn-more article.item h2.item-header{
 text-align: center;
 font-weight: 300;
 font-family: poppins;
-font-size: 250%;
+font-size: 220%;
 }
 section.third div.learn-more article.item p.item-text{
   text-align: center;
@@ -701,6 +704,7 @@ section.fourth {
   /* margin: auto; */
   height: 140%;
   width: 160%;
+  margin-top: 360%;
 }
 section.fourth h3.wcu {
  font-size: 300%;
@@ -799,6 +803,9 @@ section.fifth h1{
     text-align: center;
     font-size: 30%;
    }
+   section.second{
+    width: 220%;
+   }
    section p.desc-text{
     width: 96%;
     text-align: center;
@@ -829,8 +836,22 @@ section.second .desc-images .img:nth-child(1) {
 section.second .desc-images {
   height: 300vh;
 } 
+section.third{
+  width: 220%;
+  margin-top: 230%;
+}
+
 section.fourth {
   margin-top:-15%;
+  width: 200%;
+  margin-top: 460%;
 }
+article.break-into-tech{
+  width: 205%;
+}
+section.fifth{
+  width: 230%;
+}
+
 }
 

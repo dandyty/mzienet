@@ -402,7 +402,7 @@ h1.placeholder {
 }
 @media screen and (max-width:425px){
   body{
-    width: 100%px;
+    /* width: 100%px; */
     /* overflow-x: hidden; */
   }
    .container{
@@ -416,10 +416,10 @@ h1.placeholder {
     margin-top: 1%;
    }
    .drop-down{
-    height: 48%;
+    height: 80%;
    }
    .drop-down li a{
-    line-height: 250%;
+    line-height: 210%;
    }
  nav {
   height: 25vh;
@@ -497,6 +497,7 @@ h1.placeholder {
    }
    footer{
     height: 1000px;
+    width: 205%;
    }
 
    footer article h3.address {
@@ -527,8 +528,11 @@ h1.placeholder {
       text-decoration: none;
       color: #fff;
     } */
+    footer{
+      height: 150vh;
+    }
     footer article h3.address {
-      margin-top: 480px;
+      margin-top: 160px;
     }
     footer article h3.address p.address{
       font-size: 26px;
