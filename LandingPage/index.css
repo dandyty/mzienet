@@ -704,7 +704,7 @@ section.fourth {
   /* margin: auto; */
   height: 140%;
   width: 160%;
-  margin-top: 300%;
+  margin-top: 100%;
 }
 section.fourth h3.wcu {
  font-size: 300%;
@@ -851,6 +851,12 @@ article.break-into-tech{
 }
 section.fifth{
   width: 230%;
+}
+section.fourth div.qualities .each-quality{
+  width: 120%;
+}
+section.fourth div.qualities{
+  gap: 50px;
 }
 
 }
