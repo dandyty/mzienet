@@ -421,9 +421,6 @@ section.fifth span.arrangement {
   display: grid;
 }
 @media screen and (max-width:1024px) {
-  body{
-    max-width: 100%;
-  }
   section p {
     font-size: 3000%;
     line-height: 35px;
@@ -470,7 +467,7 @@ section.fourth div.qualities p {
     text-align: center;
       font-size: 500%;
   }
-    
+
   section.first p.sub-text {
     text-align: center;
     font-size: 20px;
@@ -524,28 +521,37 @@ section.fourth div.qualities p {
   section.second .desc-images .img:nth-child(4) {
     margin-top: -250px;
   }
+  section.fourth div.qualities{
+    grid-template-columns:repeat(2,1fr);
+  }
+  section.fourth div.qualities .each-quality{
+    width: 90%;
+    padding: 2px;
+  }
 
 }
 @media screen and (max-width:425px) {
   section.first {
     height: 250vh;
+    width: 765px;
+    margin-top: -280px;
   }
   section.first h1.title {
-    font-size: 730%;
+    font-size: 430%;
   }
   section.first p.sub-text {
-    font-size: 290%;
+    font-size: 240%;
     line-height: 140%;
   }
 section.first a.get-started {
-  font-size: 300%;
-  width: 150%;
+  font-size: 200%;
+  width: 130%;
   font-family: poppins;
-  margin-left: 400px;
+  margin-left: 300px;
 }
-#menu{
+/* #menu{
   font-size: 400%;
-}
+} */
   /* section.second .desc-images .img:nth-child(2) {
     display: none;
  }
@@ -579,6 +585,9 @@ section.first a.get-started {
 section.second .desc-images {
 display: none;
 }
+section.second{
+  width: 160%;
+}
 
 section.second div.mobile-desc-img{
 display: block;
@@ -600,13 +609,13 @@ margin-left: 120px;
 }
 section.second div.mobile-desc-img .scroll-btns i{
   margin-top: 60px;
-font-size: 94px;
+font-size: 64px;
 color: #fff;
 background-color: #330001;
 border-radius: 5px;
 cursor: pointer;
 justify-content: space-between;
-margin-right: 30px;
+margin-right: 40px;
 }
 
  section h3 {
@@ -621,23 +630,26 @@ margin-right: 30px;
   /* font-size: 550%; */
  }
  section.second h3.wwa {
-  font-size: 450%;
+  font-size: 300%;
  }
  section.second p.desc-text {
-  font-size: 250%;
+  font-size: 200%;
+ }
+ section.third{
+  width: 160%;
  }
  section.third h3.wwd {
-   font-size: 450%;
+   font-size: 300%;
 }
 section.third h1.info-header{
-  font-size: 250%;
+  font-size: 200%;
   width: 100%;
   text-align: center;
   font-weight: 600;
 }
 
 section.third p.info-text {
-  font-size: 200%;
+  font-size: 160%;
   width: 100%;
   line-height: 140%;
  }
@@ -672,45 +684,46 @@ section.third div.learn-more article.item h2.item-header{
 text-align: center;
 font-weight: 300;
 font-family: poppins;
-font-size: 300%;
+font-size: 250%;
 }
 section.third div.learn-more article.item p.item-text{
   text-align: center;
-  font-size: 200%;
+  font-size: 190%;
   line-height: 150%;
 
 }
 section.third div.learn-more article.item a.item-learn-more{
   display: block;
-  margin-left:45%;
-  font-size: 250%;
+  margin-left:40%;
+  font-size: 200%;
 }
 section.fourth {
   /* margin: auto; */
   height: 140%;
+  width: 160%;
 }
 section.fourth h3.wcu {
- font-size: 400%;
+ font-size: 300%;
  text-align: center;
- width: 100%;
- margin-left: 120px;
+ width: 80%;
+ margin-left: 20px;
 
 }
 section.fourth h1.choose-us-header{
   text-align: center;
   font-weight: 600;
-  font-size: 370%;
-  width: 100%;
-  margin-left: 120px;
+  font-size: 270%;
+  width: 90%;
+  margin-left: 30px;
 }
 
 section.fourth p.choose-us-text{
-  width: 100%;
-  font-size: 250%;
+  width: 90%;
+  font-size: 200%;
   font-family: 'Poppins', sans-serif;
   text-align: center;
   line-height: 200%;
-  margin-left: 90px;
+  margin-left: 50px;
 
 }
 section.fourth div.qualities {
@@ -719,7 +732,7 @@ grid-template-columns: 1fr;
 margin-top: 5%;
 margin-bottom: 20%;
 gap: 200px;
-width: 110%;
+width: 80%;
 margin-left: 60px;
 
 }
@@ -736,7 +749,7 @@ width: 12%;
 }
 section.fourth div.qualities p {
 font-family: poppins;
-font-size: 330%;
+font-size: 200%;
 margin: 5% 5%;
 font-weight:400 ;
 }
@@ -746,11 +759,12 @@ display: inline-block;
 width: 100%;
 left: -10px;
 font-family: Poppins;
-font-size: 250%;
+font-size: 180%;
 color:rgba(71, 70, 70, 0.816);
 }
 article.break-into-tech {
   height: 500px;
+  width: 153%;
 }
 article.break-into-tech div h2{
   width: 120%;
@@ -767,14 +781,16 @@ article.break-into-tech div a{
   font-size: 250%;
   margin-left: -100px;
 }
-
+section.fifth{
+  width: 160%;
+}
 section.fifth h3.our-clients{
   font-size: 300%;
 }
 section.fifth h1{
   width: 90%;
   text-align: center;
-  font-size: 200%;
+  font-size: 180%;
 }
 
 }
