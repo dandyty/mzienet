@@ -842,9 +842,9 @@ section.third{
 }
 
 section.fourth {
-  margin-top:-15%;
+  /* margin-top:-15%; */
   width: 200%;
-  margin-top: 460%;
+  margin-top: 160%;
 }
 article.break-into-tech{
   width: 205%;

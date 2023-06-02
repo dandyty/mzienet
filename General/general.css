@@ -529,7 +529,7 @@ h1.placeholder {
       color: #fff;
     } */
     footer{
-      height: 150vh;
+      height: 150%;
     }
     footer article h3.address {
       margin-top: 160px;
