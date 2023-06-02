@@ -480,6 +480,9 @@ h1.placeholder {
     top: 0px;
     height: 300%;
   }
+  .drop-down{
+    height: 70%;
+  }
   nav{
     height:15vh;
    }
