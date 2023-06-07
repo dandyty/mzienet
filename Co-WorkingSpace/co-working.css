@@ -9,7 +9,7 @@ section.co-working{
     background-color:rgba(128, 128, 128, 0.386);
     background-blend-mode: color-burn;
 }
-section.co-working::after{
+/* section.co-working::after{
     content: "";
     display: inline-block;
     width: 100%;
@@ -22,7 +22,7 @@ section.co-working::after{
     background-color: rgba(25, 160, 252,0.5);
     animation: moveup 2s ease-out;
     animation-fill-mode: forwards;
-}
+} */
 @keyframes moveup {
     0%{
         top:-50px;
