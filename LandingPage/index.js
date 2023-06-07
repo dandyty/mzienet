@@ -6,10 +6,9 @@ const descImg = document.querySelectorAll('.desc-images img');
 const fullDescImgContainer = document.querySelector('.desc-images-full-view'); // container for full img (the clicked one)
 const fullDescImg = document.querySelector('.desc-images-full-view img');
 const imgCloseBtn = document.querySelector('.desc-images-full-view #close-btn');
-const hamburger = document.querySelector('.hamburger')
-const menu_start = document.querySelector('#menu');
-const menu_close = document.querySelector('#menu-close');
-const hamburger_child = document.querySelector('.drop-down');
+const mobileDescImage = document.querySelector('.mobile-desc-img img');
+const mobileLeftBtn = document.querySelector('.mobile-desc-img .bx.bx-chevron-left'),
+      mobileRightBtn = document.querySelector('.mobile-desc-img .bx.bx-chevron-right');
 
 
 const leftBtn = document.querySelector('.bx.bx-chevron-left'),
@@ -27,7 +26,7 @@ function slicer() {
   setTimeout(slicer, 100);
 }
 
-
+// Large SCreen Desc Img Implementation
 let currentFullImg = '';
 
 descImg.forEach((item, index) => {
@@ -60,51 +59,81 @@ const picArr = [
   '/images/seven.JPG',
 ];
 
-let newSrc;
+
+let theFullImg = fullDescImg.getAttribute('src');
+let newSrc = picArr.indexOf(theFullImg);
+let number = 0;
+
+
+
 
 leftBtn.addEventListener('click', () => {
-  for (i = 0; i < picArr.length; i++) {
-    currentFullImg = fullDescImg.getAttribute('src');
+ 
+    
+    
+    if(newSrc === 0){
+      newSrc = picArr.length - 1;
+    fullDescImg.setAttribute('src', picArr[newSrc]);
 
-    if (currentFullImg == picArr[i]) {
-      if (i == 0) {
-        newSrc = picArr.length - 1;
-      } else {
-        newSrc = i - 1;
-      }
-
+    }
+    else{
+      newSrc--; 
       fullDescImg.setAttribute('src', picArr[newSrc]);
     }
+    
+    console.log(newSrc);
   }
-});
+  
+);
 
 rightBtn.addEventListener('click', () => {
+ 
+  
+  if(newSrc === picArr.length - 1 ){
+  newSrc = 0; 
+  fullDescImg.setAttribute('src', picArr[newSrc]);
 
-    for (i = 0; i < picArr.length; i++) {
-        currentFullImg = fullDescImg.getAttribute('src');
+  }
+  else{
+    newSrc++ ;
+     fullDescImg.setAttribute('src', picArr[newSrc]);
+  }
+ 
+  console.log(newSrc);
 
-        if (currentFullImg == picArr[i]) {
-        if (i < picArr.length - 1) {
-            newSrc = i - 1;
-        } else {
-            newSrc == i - 1;
-        }
-        fullDescImg.setAttribute('src', picArr[newSrc]);
-        }
+}
+);
+
+// Mobile Desc Img Implementation
+
+let currentMobile = 0;
+
+function prevImg () {
+  if(currentMobile === 0){
+    currentMobile = picArr.length - 1;
+  mobileDescImage.src = picArr[currentMobile]
+  }
+  else{
+    currentMobile--; 
+    mobileDescImage.src = picArr[currentMobile]
+  }
+  
+  
+}
+
+mobileLeftBtn.addEventListener('click',prevImg)
+
+function nextImg () {
+  if(currentMobile === picArr.length - 1 ){
+    currentMobile = 0; 
+    mobileDescImage.src = picArr[currentMobile]
+    
     }
-});
+    else{
+      currentMobile++ ;
+      mobileDescImage.src = picArr[currentMobile]
+    }
+   
+  }
 
-menu_start.addEventListener('click', () =>{
-  // menu_start.classList.toggle('active');
-  menu_close.classList.toggle('active');
-  hamburger_child.classList.toggle('active');
-  menu_start.classList.toggle('active');
-
-
-})
-menu_close.addEventListener('click', () =>{
-  // menu_start.classList.toggle('active');
-  menu_close.classList.toggle('active');
-  hamburger_child.classList.toggle('active');
-  menu_start.classList.toggle('active');
-})
+  mobileRightBtn.addEventListener('click',nextImg)
