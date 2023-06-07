@@ -551,12 +551,26 @@ footer.about-footer .footer-contents{
     section.vision-mission{
         margin-top: -40%;
     }
+    .vision-mission-contents:nth-child(1) h3{
+        font-size: 300%;
+        font-weight: 300;
+        margin-bottom: 10%;
+    }
+
     .vision-mission-contents:nth-child(1){
-        font-size: 50%;
+        font-size: 40%;
+        line-height: 250%;
         margin-left: 2.5%;
     }
+    .vision-mission-contents:nth-child(4) h3{
+        font-size: 300%;
+        font-weight: 300;
+        margin-bottom: 10%;
+    }
     .vision-mission-contents:nth-child(4){
-        font-size: 50%;
+        font-size: 40%;
+        line-height: 250%;
+        margin-left: 2.5%;
     }
     section.core-values h3.wdu{
         font-size: 130%;
