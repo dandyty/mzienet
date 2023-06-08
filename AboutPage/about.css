@@ -13,6 +13,23 @@ section.about{
     background-position-y: 50%;
 }
 
+.landing-mobile-css1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing-mobile-css1 h2.logo{
+    margin-top: 5px;
+    margin-left:-30px;
+}
+.landing-mobile-css1 h2{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.landing-mobile-css1 ul {
+    margin-left: 100px;
+    margin-top: 27px;
+}
 
 section.about h1.about-us{
     font-family: 'Poppins', sans-serif;
@@ -361,6 +378,18 @@ footer.about-footer .footer-contents{
     margin-top: 0;
 }
 @media screen and (max-width:1024px) {
+    .landing-mobile-css1 h2.logo{
+        margin-top: 5px;
+        margin-left:40px;
+    }
+    .landing-mobile-css1 h2{
+        margin-top: 20px;
+        margin-left: 150px;
+    }
+    .landing-mobile-css1 ul {
+        margin-left: 90px;
+        margin-top: 27px;
+    }
     section.about{
         height: 50vh;
     }
@@ -434,7 +463,23 @@ footer.about-footer .footer-contents{
 }
 
    @media screen and (max-width:768px) {
+    html{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .landing-mobile-css1{
+        display: flex;
+        position: fixed;
+        background-color: #fff;
+        justify-content: space-between;
+        width: 99.9%;
+    }
+    .landing-mobile-css1 h2.logo{
+    margin-top: 10px;
+    margin-left: 45px;
+  }
     body{
+        width: 100%;
         overflow-x: hidden;
     }
     section.about{
@@ -520,10 +565,15 @@ footer.about-footer .footer-contents{
    }
    @media screen and (max-width:425px){
     html{
+        width: 100%;
         overflow-x:visible;   
       }
     body{
-        width:98%;
+        width:100%;
+    }
+    .landing-mobile-css1{
+        margin-top: 20px;
+        width: 100%;
     }
     section.about{
         height: 40vh;
@@ -590,7 +640,7 @@ footer.about-footer .footer-contents{
         font-size: 70%;
     }
     section.our-team{
-        margin-top: 160%;
+        margin-top: 130%;
     }
     section.our-team h1.ot-header{
         font-size: 150%;
