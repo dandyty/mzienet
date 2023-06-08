@@ -624,6 +624,7 @@ footer.about-footer .footer-contents{
         margin-left: 2.5%;
     }
     section.core-values{
+        height: 100vh;
         margin-bottom: 50%;
     }
     section.core-values h3.wdu{
