@@ -622,6 +622,9 @@ footer.about-footer .footer-contents{
         line-height: 250%;
         margin-left: 2.5%;
     }
+    section.core-values{
+        margin-bottom: 40%;
+    }
     section.core-values h3.wdu{
         font-size: 130%;
         margin-left: -30%;
