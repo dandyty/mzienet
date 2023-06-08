@@ -566,13 +566,14 @@ footer.about-footer .footer-contents{
    @media screen and (max-width:425px){
     html{
         width: 100%;
-        overflow-x:visible;   
+        overflow-x:hidden;   
       }
     body{
+        overflow-x: hidden;
         width:100%;
     }
     .landing-mobile-css1{
-        margin-top: 20px;
+        /* margin-top: px; */
         width: 100%;
     }
     section.about{
